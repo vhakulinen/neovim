@@ -103,10 +103,10 @@ void event(char *name, Array args, bool *args_consumed)
 void win_pos(Integer grid, Integer win, Integer startrow,
              Integer startcol, Integer width, Integer height)
   FUNC_API_SINCE(6) FUNC_API_REMOTE_ONLY;
-void win_float_pos(Integer grid, Window win, String anchor, Integer anchor_grid,
-                   Float anchor_row, Float anchor_col, Boolean focusable)
+void win_float_pos(Integer grid, Integer win, String anchor, Integer anchor_grid,
+                   Integer anchor_row, Integer anchor_col, Boolean focusable)
   FUNC_API_SINCE(6) FUNC_API_REMOTE_ONLY;
-void win_external_pos(Integer grid, Window win)
+void win_external_pos(Integer grid, Integer win)
   FUNC_API_SINCE(6) FUNC_API_REMOTE_ONLY;
 void win_hide(Integer grid)
   FUNC_API_SINCE(6) FUNC_API_REMOTE_ONLY;
